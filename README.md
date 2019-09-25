@@ -21,7 +21,10 @@ git clone https://github.com/federicozacayan/restful-api-angular.git .
 ```
 ### Run
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Execute the following command in the root folder.
+```bash
+sudo docker-compose up
+```
 
 ### Stop
 
@@ -29,13 +32,22 @@ To stop the server press `CTRL+C`.
 
 ### Clean your disk
 
-Just, deleting the files.
+Execute the following command in the root folder to remove container.
+```bash
+sudo docker-compose down
+```
+Execute the following command in the root folder to remove the images.
+```bash
+sudo docker rmi angular_cli:8.3 node:12.4
+```
+
+
 
 ## Tutorial
 
 You can find a tutorial of this project in the following site.
 
-[https://federicozacayan.github.io/tutorial/restful-api-vue/](https://federicozacayan.github.io/tutorial/restful-api-vue/)
+[https://federicozacayan.github.io/tutorial/restful-api-angular/](https://federicozacayan.github.io/tutorial/restful-api-angular/)
 
 ## Usage
 
@@ -45,7 +57,3 @@ Open the index.html file with a browser.
 - Create a new user.
 - Update a user.
 - Delete a user
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
