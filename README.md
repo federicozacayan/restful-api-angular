@@ -59,4 +59,6 @@ Open the index.html file with a browser.
 - Bring 10 user (Automatically).
 - Create a new user.
 - Update a user.
-- Delete a user
+- Delete a user.
+
+Open [http://localhost:4200](http://localhost:4200) to view it in the browser.
