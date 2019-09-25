@@ -1,4 +1,4 @@
-# RESTful API client (not dockerized) with Angular
+# RESTful API client dockerized with Angular
 
 This is a basic Hello-Wolrd application.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
@@ -7,10 +7,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 - A browser.
 - Internet access.
+- Docker & Docker-compose installed.
+- Git installed.
+
 
 ## Set up
 
-n/a
+It is assumed it is used linux environment.
 
 ### Prepare
 
